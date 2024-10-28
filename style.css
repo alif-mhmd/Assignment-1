@@ -1,0 +1,1744 @@
+/* font  */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: white;
+    font-weight: 500; 
+    font-family: "Poppins", sans-serif;
+
+}
+
+
+/* header part starts here */
+.landingpage {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1440px;
+    height: 777px;
+}
+
+/* navbar starts here */
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 130px;
+
+}
+
+.bars {
+    display: none;
+}
+
+.logo img {
+    height: 58px;
+    padding-top: 5px;
+}
+
+.nav-buttons-mid {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.nav-buttons-mid a {
+    text-decoration: none;
+    color: grey;
+    font-size: 20px;
+
+}
+
+
+.nav-buttons-right {
+    padding-left: 200px;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+
+}
+
+.nav-buttons-right a {
+    font-size: 20px;
+    color: #96bb7c;
+    text-decoration: none;
+}
+
+
+.nav-buttons-right button {
+    font-size: 15px;
+    color: white;
+    border-radius: 5px;
+    border: 0;
+    background-color: #96BB7C;
+    padding: 14px 34px 13px 24px;
+    cursor: pointer;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+}
+
+.nav-buttons-right button:hover {
+    color: white;
+    background-color: #252B42;
+}
+
+/* navbar ends here */
+
+
+/* hero section starts here */
+.hero {
+    display: flex;
+    padding: 50px;
+}
+.boy{
+    width: 700px;
+}
+#maintext {
+    width: 50%;
+    padding: 70px;
+    margin-left: 20px;
+
+}
+
+#highquality {
+    color: #252B42;
+    font-size: 60px;
+}
+
+
+#left h4 {
+    color: #96BB7C;
+    font-size: 18px;
+}
+
+#left p {
+    font-size: 24px;
+}
+
+.quote{
+    border: 1px;
+    border-color: #96BB7C;
+    font-size: 16px;
+    padding: 15px 40px;
+    cursor: pointer;
+    border-radius: 5px;
+    color: white;
+    background-color: #96BB7C;
+    margin-right: 10px;
+
+}
+
+.learn{
+        border: 1px;
+        border-color: #96BB7C;
+        font-size: 16px;
+        padding: 15px 40px;
+        cursor: pointer;
+        border-radius: 5px;
+        color: #96BB7C;
+        background-color: white;
+        margin-right: 10px;
+}
+
+.quote:hover {
+    color: #96BB7C;
+    border: 1px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.learn:hover {
+    color: white;
+    border: 1px;
+    border-radius: 5px;
+    background-color: #96BB7C;
+}
+
+
+#right {
+    width: 50%;
+
+}
+
+#right img {
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+/* header part ends here  */
+
+/* second section starts */
+
+
+/* courses text part */
+.popcourse {
+    padding: 112px 0;
+}
+
+.courses-part-1 {
+    margin: 112px 0 112px 145px;
+}
+
+
+h6 {
+    color: #8baa75;
+    font-size: 19px;
+
+}
+
+h2 {
+    color: #252B42;
+    font-size: 40px;
+}
+
+p {
+    color: #252B42;
+    font-size: 16px;
+}
+
+/* Popcourse All cards Starts here*/
+.popcourse-cards {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.popcourse p{
+    color: rgb(112, 112, 112);
+}
+
+.redline {
+    background-color: maroon;
+    margin-top: -5px;
+    height: 2px;
+    width: 60px;
+}
+
+/* first card */
+.card1 {
+    height: 300px;
+    width: 250px;
+    box-shadow: 0px 10px 15px #8080802f;
+    padding: 40px 40px;
+}
+
+.card1 img {
+    height: 72px;
+}
+
+.card1 h5 {
+    font-size: 17px;
+    margin-top: -1px;
+}
+
+.card1 p {
+    padding: 1px;
+
+}
+
+/* second card */
+.card2 {
+    height: 300px;
+    width: 250px;
+    box-shadow: 0px 10px 15px #8080802f;
+    padding: 40px 40px;
+}
+
+.card2 img {
+    height: 72px;
+}
+
+.card2 h5 {
+    font-size: 17px;
+    margin-top: -1px;
+}
+
+.card2 p {
+    padding: 1px;
+
+}
+
+/* third card */
+.card3 {
+    height: 300px;
+    width: 250px;
+    box-shadow: 0px 10px 15px #8080802f;
+    padding: 40px 40px;
+}
+
+.card3 img {
+    height: 72px;
+}
+
+.card3 h5 {
+    font-size: 17px;
+    margin-top: -1px;
+}
+
+.card3 p {
+    padding: 1px;
+
+}
+
+/* fourth card */
+.card4 {
+    height: 300px;
+    width: 250px;
+    box-shadow: 0px 10px 15px #8080802f;
+    padding: 40px 40px;
+
+}
+
+.card4 img {
+    height: 72px;
+}
+
+.card4 h5 {
+    font-size: 17px;
+    margin-top: -1px;
+}
+
+
+.card4 p {
+    padding: 1px;
+
+}
+
+/* Get quality education starts here */
+.qualityed {
+    display: flex;
+    justify-content: center;
+    padding: 140px 0;
+    gap: 5px;
+}
+
+.qualityed-img {
+    margin-left: 200px;
+    width: 50%;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: 300px 30px;
+
+}
+
+
+/* text section */
+.third-text {
+    width: 50%;
+
+}
+
+.qualityed-text {
+    height: 300px;
+    width: 350px;
+    margin-left: 150px;
+}
+
+.redline2 {
+    height: 8px;
+    width: 100px;
+    background-color: maroon;
+
+}
+
+.third-text h1 {
+    font-size: 42px;
+}
+
+.qualityed-text p {
+    margin-bottom: 10px;
+
+}
+
+.qualityed-text a {
+    text-decoration: none;
+    color: #96BB7C;
+}
+
+#qualitysmalltext{
+    color: rgb(107, 107, 107);
+    padding-bottom: 15px;
+}
+
+/* Approdable Packages starts here*/
+.app-pack {
+    display: flex;
+    gap: 30px;
+    padding: 160px 0;
+
+}
+
+.app-pack-text {
+    width: 50%;
+    margin-left: 200px;
+
+}
+
+.app-pack-text p {
+    color: rgb(104, 104, 104);
+    font-size: 17px;
+    margin-bottom: 18px;
+}
+
+.app-pack-text a {
+    text-decoration: none;
+    color: #96BB7C;
+}
+
+.yt-video {
+    width: 50%;
+    margin-right: 40px;
+}
+
+
+/* Most popular course part starts */
+
+.most-pop-section {
+    padding: 160px 0;
+
+}
+#problem{
+    color: rgb(102, 102, 102);
+}
+
+/* most pop section text */
+.most-pop-section-text {
+    width: 691px;
+    margin-left: 180px;
+}
+
+.most-pop-section-text h6 {
+    color: #96BB7C;
+    margin-bottom: -10px;
+}
+
+.most-pop-section-text h2 {
+    width: 447px;
+}
+
+.most-pop-section-text h6 {
+    width: 469px;
+}
+
+/* most pop section cards */
+
+.most-pop-allcards {
+    padding: 160px 0;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+/* first card */
+.pop-card-1 {
+    width: 238px;
+    box-shadow: 0 10px 15px #8080802f
+}
+
+.pop-card-img-1 {
+    height: 300px;
+    position: relative;
+
+}
+
+.pop-card-img-1 img {
+    position: absolute;
+
+}
+
+.sale {
+    font-weight: normal;
+    position: absolute;
+    height: 24px;
+    width: 51px;
+    color: white;
+    background-color: maroon;
+    border-radius: 28px;
+    text-align: center;
+    margin: 16px;
+}
+
+.three-icons {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin: 240px 0 0 50px;
+}
+
+.bc1 {
+    height: 35px;
+    width: 35px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    font-size: 22px;
+    text-align: center;
+
+}
+
+.bc2 {
+    height: 35px;
+    width: 35px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    font-size: 22px;
+    text-align: center;
+
+}
+
+.bc3 {
+    height: 35px;
+    width: 35px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    font-size: 22px;
+    text-align: center;
+
+}
+
+/* card text */
+
+.pop-card-1-bottom-text {
+    margin-top: 15px;
+    margin-left: 15px;
+    height: 312px;
+}
+
+.card-text-1 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.card-text-1 h5 {
+    color: #96BB7C;
+    font-size: 15px;
+}
+
+.rating-1 {
+    height: 26px;
+    width: 65px;
+    background-color: #2d4059;
+    color: whitesmoke;
+    border-radius: 10px;
+}
+
+.star-color {
+    color: yellow;
+    margin-left: 4px;
+    margin-right: 5px;
+
+}
+
+.card-text-2 h5 {
+    margin-top: -20px;
+    width: 220px;
+    font-size: 20px;
+}
+
+.card-text-2 h6 {
+    font-size: 13px;
+    color: #1b1715;
+    margin-top: -10px;
+}
+
+.download {
+    margin-top: -15px;
+
+}
+
+.dollar {
+    color: orange;
+}
+
+.learn-more button {
+    margin: 10px 0 10px 25px;
+    color: #96BB7C;
+    height: 44px;
+    width: 144px;
+    border: 2px #96BB7C;
+    border-radius: 10px;
+}
+
+/* second card */
+.pop-card-2 {
+    width: 238px;
+    box-shadow: 0px 10px 15px #8080802f;
+}
+
+.pop-card-img-2 {
+    height: 300px;
+    position: relative;
+
+}
+
+.pop-card-img-2 img {
+    position: absolute;
+
+}
+
+
+/* fifth card text */
+
+.pop-card-2-bottom-text {
+    margin-top: 15px;
+    height: 312px;
+    margin-left: 15px;
+}
+
+.card2-text-1 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.card2-text-1 h5 {
+    color: #96bb7c;
+    font-size: 15px;
+}
+
+.rating-2 {
+    height: 26px;
+    width: 65px;
+    background-color: #2d4059;
+    color: whitesmoke;
+    border-radius: 10px;
+}
+
+.card2-text-2 h5 {
+    margin-top: -20px;
+    width: 220px;
+    font-size: 20px;
+}
+
+.card2-text-2 h6 {
+    font-size: 13px;
+    color: #1b1715;
+    margin-top: -10px;
+}
+
+.download {
+    margin-top: -15px;
+
+}
+
+.dollar {
+    color: orange;
+}
+
+/* third card  */
+.pop-card-3 {
+    width: 238px;
+    box-shadow: 0px 10px 15px #8080802f;
+}
+
+.pop-card-img-3 {
+    height: 300px;
+    position: relative;
+
+}
+
+.pop-card-img-3 img {
+    position: absolute;
+
+}
+
+
+/* fifth card text */
+
+.pop-card-3-bottom-text {
+    margin-top: 15px;
+    height: 312px;
+    margin-left: 15px;
+}
+
+.card3-text-1 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.card3-text-1 h5 {
+    color: #96bb7c;
+    font-size: 15px;
+}
+
+.rating-3 {
+    height: 26px;
+    width: 65px;
+    background-color: #2d4059;
+    color: whitesmoke;
+    border-radius: 10px;
+}
+
+
+.card3-text-2 h5 {
+    margin-top: -20px;
+    width: 220px;
+    font-size: 20px;
+}
+
+.card3-text-2 h6 {
+    font-size: 13px;
+    color: #1b1715;
+    margin-top: -10px;
+}
+
+.download {
+    margin-top: -15px;
+
+}
+
+.dollar {
+    color: orange
+}
+
+/* fourth card */
+.pop-card-4 {
+    width: 238px;
+    box-shadow: 0px 10px 15px #8080802f;
+}
+
+.pop-card-img-4 {
+    height: 300px;
+    position: relative;
+
+}
+
+.pop-card-img-4 img {
+    position: absolute;
+
+}
+
+
+/* fifth card text */
+
+.pop-card-4-bottom-text {
+    margin-top: 15px;
+    margin-left: 15px;
+    height: 312px;
+}
+
+.card4-text-1 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.card4-text-1 h5 {
+    color: rgb(125, 177, 125);
+    font-size: 15px;
+}
+
+.rating-4 {
+    height: 26px;
+    width: 65px;
+    background-color: #2d4059;
+    color: whitesmoke;
+    border-radius: 10px;
+}
+
+.card4-text-2 h5 {
+    margin-top: -20px;
+    width: 220px;
+    font-size: 20px;
+}
+
+.card4-text-2 h6 {
+    font-size: 13px;
+    color: #1b1715;
+    margin-top: -10px;
+}
+
+.download {
+    margin-top: -15px;
+
+}
+
+.dollar {
+    color: orange
+}
+
+
+/* sixth section starts */
+
+/* sixth text */
+
+.expert-section {
+    padding: 160px 0;
+}
+
+.six-section-text {
+    margin-left: 150px;
+}
+
+.six-section-text h6 {
+    color: #96bb7c; 
+    font-size: 17px;
+}
+
+.six-section-text h2 {
+    font-size: 40px;
+    margin-top: -18px;
+}
+
+.six-section-text p {
+    margin-top: -10px;
+}
+
+/* Our expert teacher section cards */
+.expert-section-cards {
+    display: flex;
+    margin-top: 80px;
+    justify-content: center;
+    gap: 80px;
+
+}
+
+.sixth-first-card {
+    width: 328px;
+    box-shadow: 0px 10px 15px #8080802f;
+    border-radius: 3px;
+
+}
+
+.sixth-first-card img {
+    margin-left: 112px;
+    margin-top: 20px;
+
+}
+
+.sixth-first-card h3 {
+    margin-top: 35px;
+    font-size: 26px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.sixth-first-card h6 {
+    color: #1f2e15;
+    width: 200px;
+    font-size: 17px;
+    margin-top: 35px;
+    margin-left: 80px;
+}
+
+#nineteen h2 {
+    color: #498b19;
+    text-align: center;
+
+}
+
+#per-month h6 {
+    color: skyblue;
+    text-align: center;
+    margin-top: -35px;
+}
+
+.sixth-first-card p {
+    margin-top: 35px;
+    margin-left: 50px;
+    font-size: 15px;
+    width: 250px;
+}
+
+.sixth-first-card button {
+    margin-top: 15px;
+    color: rgb(245, 245, 245);
+    background-color: #70a848;
+    border: 0;
+    border-radius: 4px;
+    font-size: 18px;
+    padding: 15px 60px;
+    margin-left: 52px;
+    justify-content: center;
+}
+
+.sixth-second-card {
+    width: 328px;
+    box-shadow: 0px 10px 15px #8080802f;
+    background-color: #2D4059;
+    border-radius: 3px;
+    position: relative;
+
+}
+
+.sixth-second-card h3 {
+    color: #ffffff;
+}
+
+.two-line-text2 {
+    color: #ffffff;
+}
+
+.three-line-text2 {
+    color: #ffffff;
+}
+
+#per-month2 h6 {
+    color: skyblue;
+    text-align: center;
+    margin-top: -35px;
+}
+
+.new {
+    position: absolute;
+    margin: -630px 0 0 160px;
+}
+
+.month h6 {
+    color: #2D4059;
+    text-align: center;
+    margin-top: -35px;
+}
+
+.sixth-second-card img {
+    margin-left: 112px;
+    margin-top: 20px;
+
+}
+
+.sixth-second-card h3 {
+    margin-top: 35px;
+    font-size: 26px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.sixth-second-card h6 {
+    color: #ffffff;
+    width: 200px;
+    font-size: 17px;
+    margin-top: 35px;
+    margin-left: 80px;
+}
+
+#nineteen h2 {
+    color: #96bb7c;
+    text-align: center;
+
+}
+
+#per-month h6 {
+    color: skyblue;
+    text-align: center;
+    margin-top: -35px;
+}
+
+.sixth-second-card p {
+    margin-top: 35px;
+    margin-left: 50px;
+    font-size: 15px;
+    width: 250px;
+    color: #ffffff;
+}
+
+.sixth-second-card button {
+    margin-top: 15px;
+    color: rgb(245, 245, 245);
+    background-color: #96bb7c;
+    border: 0;
+    border-radius: 4px;
+    font-size: 18px;
+    padding: 15px 60px;
+    margin-left: 52px;
+
+}
+
+
+.package1 {
+    margin-top: 30px;
+    line-height: 3px;
+}
+
+.three-lines {
+    display: flex;
+    margin-left: 15px;
+    gap: 8px;
+
+}
+
+.green {
+    height: 40px;
+    width: 40px;
+    background-color: #96bb7c;
+    border-radius: 50%;
+    position: relative;
+}
+
+.check {
+    position: absolute;
+    font-size: 24px;
+    margin-left: 10px;
+    margin-top: 6px;
+    color: #FFFFFF;
+}
+
+/* last two lines */
+.two-lines {
+    display: flex;
+    margin-left: 15px;
+    gap: 8px;
+    text-wrap: wrap;
+
+}
+
+.muted {
+    height: 40px;
+    width: 40px;
+    background-color: #BDBDBD;
+    border-radius: 50%;
+    position: relative;
+}
+
+.check {
+    position: absolute;
+    font-size: 24px;
+    margin-top: 6px;
+    color: #FFFFFF;
+}
+
+/* seventh section starts */
+.seventh-section {
+    padding: 160px;
+}
+
+.seventh-section-text h6 {
+    color: #96BB7C;
+}
+
+.seventh-section-text h3 {
+    margin-top: -25px;
+    font-size: 34px;
+    width: 421px;
+}
+
+.seventh-section-text p {
+    margin-top: -20px;
+    width: 463px;
+}
+
+/* teachers profiles seventh-part2 */
+.teachers-profiles {
+    margin-top: 96px;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+
+}
+
+.teacher1 {
+    width: 480px;
+    height: 378px;
+
+}
+
+.teacher1 img {
+    width: 128px;
+    border-radius: 50%;
+    margin-left: 90px;
+}
+
+.teacher1-text p {
+    height: 60px;
+    width: 320px;
+    font-size: 14px;
+}
+
+.rating-stars-1 {
+    color: rgb(199, 199, 14);
+    margin: 0 100px 0 100px;
+}
+
+.profile-name-1 {
+    margin: -20px 90px 0 90px;
+}
+
+.profile-name-1 h5 {
+    font-size: 18px;
+
+}
+
+.profile-name-1 h6 {
+    margin: -20px 40px 0 40px;
+    color: #1b1715;
+    font-size: 14px;
+}
+
+/* second teacher */
+teacher2 {
+    width: 480px;
+    height: 378px;
+
+}
+
+.teacher2 img {
+    width: 128px;
+    border-radius: 50%;
+    margin-left: 90px;
+}
+
+.teacher2-text p {
+    height: 60px;
+    width: 320px;
+    font-size: 14px;
+}
+
+.rating-stars-2 {
+    color: rgb(199, 199, 14);
+    margin: 0 115px 0 115px;
+}
+
+.profile-name-2 {
+    margin: -20px 90px 0 90px;
+}
+
+.profile-name-2 h5 {
+    font-size: 18px;
+}
+
+.profile-name-2 h6 {
+    margin: -20px 40px 0 40px;
+    color: black;
+    font-size: 14px;
+}
+
+/* eighth section starts */
+.eighth-section {
+    background-color: #96BB7C;
+
+}
+
+.eighth-section-text {
+    padding: 120px;
+}
+
+.eighth-section-text h6 {
+    text-align: center;
+    color: rgb(97, 97, 97);
+}
+
+.eighth-section-text h3 {
+    margin-top: -30px;
+    font-size: 34px;
+    text-align: center;
+}
+
+.eighth-section-text p {
+    color: black;
+    margin-top: -25px;
+    text-align: center;
+}
+
+.input {
+    margin-top: 80px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.input #email {
+    height: 50px;
+    width: 580px;
+    border-radius: 3px 0 0 6px;
+    font-size: 14px;
+    font-weight: 700;
+    border-style: none;
+    padding-left: 10px;
+}
+
+.input button {
+    height: 50px;
+    width: 130px;
+    color: #FFFFFF;
+    padding: 0 20px;
+    font-weight: 700;
+    font-size: 15px;
+    text-align: center;
+    border-radius: 0 6px 6px 0;
+    background-color: rgb(0, 0, 0);
+    margin-left: -10px;
+    border-style: none;
+}
+
+
+/* last section starts */
+
+.footer {
+    background-color: #ffffff;
+    padding: 70px 0;
+    line-height: 3;
+
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+ul {
+    list-style: none;
+}
+
+.footer-col {
+    width: 18%;
+    padding: 0 15px;
+}
+
+.footer-col h4 {
+    font-style: 18px;
+    color: #616161;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    font-weight: 500;
+    position: relative;
+}
+
+.footer-col h4::before {
+    position: absolute;
+    content: "";
+    left: 0;
+    bottom: -10px;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+
+.footer-col ul li a {
+    font-size: 16px;
+    color: #bbbbbb;
+    text-decoration: none;
+    font-weight: 400;
+    display: block;
+    transition: all 0.3s ease;
+
+}
+
+
+.credit {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 60px;
+    margin-top: -20px;
+    background-color: rgb(226, 226, 226);
+}
+
+.credit p {
+    font-size: 18px;
+}
+
+.name {
+    color: rgb(92, 22, 22);
+    font-size: 20px;
+}
+
+.social-links a {
+    margin: 10px;
+    font-size: 24px;
+    color: #494949;
+
+}
+
+.social-links a:hover {
+    color: black;
+}
+
+/* scrollbar code */
+
+
+/* Responsive Part */
+
+@media screen and (max-width:1440px) {
+    body {
+        max-width: 1440px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+}
+
+@media screen and (max-width:1280px) {
+    .logo {
+        margin-left: 30px;
+
+    }
+
+    .logo img {
+        height: 54px;
+    }
+
+    #left h1 {
+        font-size: 32px;
+    }
+
+    #left p {
+        font-size: 19px;
+    }
+
+    #left {
+        width: 50%;
+    }
+
+    #right {
+        width: 50%;
+    }
+
+    #right img {
+        width: 600px;
+        height: auto;
+    }
+
+    .popcourse {
+        margin-top: -120px;
+    }
+
+    .courses-part-1 {
+        margin-left: 110px;
+    }
+
+    .courses-part-1 h2 {
+        font-size: 37px;
+    }
+
+    .courses-part-1 h6 {
+        font-size: 16px;
+    }
+
+    .qualityed-img {
+        margin-left: -200px;
+    }
+
+    .qualityed-text {
+        margin-left: 200px;
+    }
+
+    .app-pack-text h2 {
+        font-size: 35px;
+    }
+
+    .most-pop-section {
+        margin-top: -140px;
+    }
+
+    .most-pop-section-text {
+        margin-left: 120px;
+    }
+
+    .most-pop-section-text h6 {
+        font-size: 16px;
+    }
+
+    .most-pop-section-text h2 {
+        font-size: 33px;
+    }
+
+    .most-pop-allcards {
+        padding: 140px;
+        gap: 30px;
+        margin-left: 20px;
+
+    }
+
+
+    .expert-section {
+        margin-top: -240px;
+    }
+
+    .expert-section-text {
+        margin-left: 40px;
+    }
+
+    .expert-section-text h6 {
+        font-size: 16px;
+    }
+
+    .expert-section-text h3 {
+        font-size: 30px;
+
+    }
+
+    .new img {
+        height: 70px;
+    }
+
+    .seventh-section {
+        padding: 110px 0;
+        margin-left: 200px;
+    }
+
+    .seventh-section-text {
+        width: 491px;
+
+    }
+
+    .seventh-section-text h6 {
+        font-size: 16px;
+    }
+
+    .seventh-section-text h2 {
+        font-size: 36px;
+
+    }
+
+}
+
+@media screen and (max-width:1024px) {
+    .logo img {
+        height: 50px;
+        margin-left: 50px;
+    }
+
+    .nav-buttons-mid {
+        gap: 13px;
+    }
+
+    .nav-buttons-mid a {
+        font-size: 20px;
+
+    }
+
+    .nav-buttons-right {
+        gap: 25px;
+        margin-right: 30px;
+
+    }
+
+    .nav-buttons-right a {
+        font-size: 18px;
+
+    }
+
+    .nav-buttons-right button {
+        font-size: 16px;
+        padding: 5px 14px 5px 14px;
+        border-radius: 3px;
+
+    }
+
+    #left h1 {
+        font-size: 28px;
+    }
+
+    #left {
+        margin-left: -30px;
+    }
+
+    #right img {
+        width: 500px;
+        height: auto;
+    }
+
+    .popcourse {
+        padding: 80px 0;
+    }
+
+    .courses-part-1 {
+        margin: 112px 0 112px 170px;
+
+    }
+
+    .popcourse-cards {
+        column-gap: 160px;
+        row-gap: 50px;
+        flex-wrap: wrap;
+    }
+
+    .qualityed-img {
+        margin-left: -250px;
+    }
+
+    .qualityed {
+        gap: 40px;
+    }
+
+    .qualityed-text {
+        margin-left: 160px;
+    }
+
+    .app-pack-text {
+        margin-left: 100px;
+
+    }
+
+    .yt-video video {
+        width: 500px;
+    }
+
+    .most-pop-allcards {
+        padding: 130px;
+        column-gap: 70px;
+        row-gap: 40px;
+        margin-left: -3px;
+        flex-wrap: wrap;
+    }
+
+    .expert-section {
+        padding: 110px 0;
+
+    }
+
+    .expert-section-cards {
+        margin-top: 80px;
+        gap: 40px;
+        flex-wrap: wrap;
+
+    }
+
+    .new img {
+        height: 60px;
+        margin-left: 130px;
+    }
+
+    .teachers-profiles {
+        margin-left: 70px;
+        max-width: 1024px;
+    }
+
+    .row {
+        gap: 2px;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .logo img {
+        height: 40px;
+        padding-top: 0px;
+        margin-left: 40px;
+    }
+
+    .bars {
+        display: block;
+        font-size: 20px;
+        margin-left: 20px;
+    }
+
+
+    .nav-buttons-mid {
+        display: none;
+    }
+
+    .hero {
+        flex-wrap: wrap-reverse;
+        gap: 200px;
+
+    }
+
+    #right {
+        margin-left: 60px;
+    }
+
+    #maintext {
+        margin-left: 70px;
+        margin-top: -120px;
+        width: 100%;
+    }
+
+    .popcourse {
+        margin-top: 312px;
+    }
+
+    .popcourse-cards {
+        gap: 35px;
+    }
+
+    .qualityed {
+        flex-wrap: wrap;
+        gap: 400px;
+        padding: 50px 0;
+        margin-left: 60px;
+    }
+
+    .third-text {
+        width: 100%;
+        margin-top: 60px;
+
+    }
+
+    .qualityed-img {
+        width: 100%;
+
+    }
+
+    .yt-video video {
+        width: 350px;
+        margin-top: 70px;
+    }
+
+    .most-pop-section {
+        margin-left: -20px;
+    }
+
+    .most-pop-allcards {
+        padding: 70px;
+        gap: 30px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .expert-section-cards {
+        margin-left: 15px;
+    }
+
+    .teacher1 {
+        width: 50%;
+
+    }
+
+    .teacher2 {
+        width: 50%;
+
+    }
+
+    .seventh-section {
+        padding: 160px 0;
+        margin-left: 100px;
+    }
+
+    .eighth-section {
+        width: 100%;
+    }
+
+    .footer {
+        width: 100%;
+    }
+
+    .row {
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+
+    .footer-col {
+        width: 30%;
+        padding: 0 15px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+    .logo img {
+        height: 50px;
+        padding-top: 0px;
+        margin-left: 40px;
+    }
+
+    .nav-buttons-mid {
+        gap: 13px;
+    }
+
+
+    .nav-buttons-right {
+        gap: 25px;
+        margin-right: 30px;
+
+    }
+
+    .nav-buttons-right a {
+        font-size: 18px;
+
+    }
+
+    .nav-buttons-right button {
+        font-size: 16px;
+        padding: 5px 14px 5px 14px;
+        border-radius: 3px;
+
+    }
+
+    #left h1 {
+        font-size: 28px;
+    }
+
+    #left {
+        margin-left: -30px;
+    }
+
+    #right img {
+        width: 500px;
+        height: auto;
+    }
+
+    .popcourse {
+        padding: 80px 0;
+    }
+
+    .courses-part-1 {
+        margin: 112px 0 112px 170px;
+
+    }
+
+    .popcourse-cards {
+        column-gap: 160px;
+        row-gap: 50px;
+        flex-wrap: wrap;
+    }
+
+    .qualityed-img {
+        margin-left: -250px;
+    }
+
+    .qualityed {
+        gap: 40px;
+    }
+
+    .qualityed-text {
+        margin-left: 160px;
+    }
+
+    .app-pack-text {
+        margin-left: 100px;
+
+    }
+
+    .yt-video video {
+        width: 400px;
+    }
+
+    .most-pop-allcards {
+        padding: 130px;
+        column-gap: 70px;
+        row-gap: 40px;
+        margin-left: -3px;
+        flex-wrap: wrap;
+    }
+
+    .expert-section {
+        padding: 110px 0;
+
+    }
+
+    .expert-section-cards {
+        margin-top: 80px;
+        gap: 40px;
+        flex-wrap: wrap;
+
+    }
+
+    .new img {
+        height: 60px;
+        margin-left: 130px;
+    }
+
+    .teachers-profiles {
+        margin-left: 70px;
+        max-width: 1024px;
+    }
+
+    .row {
+        gap: 2px;
+    }
+
+}
